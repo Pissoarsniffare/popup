@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="popup">
+        <h3>kaka mums</h3>
+        <p>vi tar din information och åker hem till dig</p>
+        <button id="decline">NO</button>
+        <button id="accept">YES</button>
+        
+    </div>
+    <main>
+    </main>
+    <script>
+        let popup = document.querySelector(".popup");
+        const accept = document.querySelector("#accept");
+        accept.addEventListener('click', (event) => {
+            console.log('mums filibabba kakor');
+            popup.classList.toggle("hidden");
+        });
+        decline.addEventListener('click', (event) => {
+            console.log('fy fan');
+            popup.classList.toggle("hidden");
+        });
+    </script>
+    
+</body>
+</html>

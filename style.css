@@ -1,0 +1,35 @@
+.popup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: darkslategray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .1em;
+}
+
+.hidden {
+    display: none;
+}
+
+#accept {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+    border: 1px;
+}
+
+#decline {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: red;
+    border: 1px;
+}
+button {
+    margin: 1rem;
+    padding: .4rem;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+
